@@ -5,7 +5,6 @@
 
 .div-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -25,8 +24,7 @@
 }
 
 .header-nav {
-  flex-grow: 1;
-  padding-left: 76px;
+  margin-left: 76px;
 }
 .header-list {
   display: flex;
@@ -52,6 +50,11 @@
 .header-list-link:active {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.header-address {
+  margin-left: auto;
+  font-style: normal;
 }
 
 .header-adr-list {
@@ -80,6 +83,3 @@
   color: #404bbf;
 }
 
-address {
-  font-style: normal;
-}
